@@ -1,0 +1,28 @@
+from selenium.webdriver.common.by import By
+
+class HomePageLocators:
+
+    link_residentpay = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='ResidentPay']")
+    link_residentportal = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='ResidentPortal']")
+    link_EBI = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='Entrata Business Intelligence']")
+    link_RBI = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='Entrata Business Intelligence']")
+    link_SRI = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='Student Revenue Intelligence']")
+    link_access_connect = (By.XPATH, "//div[@class='footer-column no-bg']/a[normalize-space()='Access Connect']")
+    btn_cookie_close = (By.XPATH, "//div[@id='cookie-close']")
+    btn_close_banner = (By.XPATH, "//button[@aria-label='close']")
+    btn_watch_demo = (By.XPATH, "//div[@class='bg-footer']/a")
+    inp_firstname = (By.XPATH, "//input[@id='FirstName']")
+    inp_lastname = (By.XPATH, "//input[@id='LastName']")
+    inp_email = (By.XPATH, "//input[@id='Email']")
+    inp_company = (By.XPATH, "//input[@id='Company']")
+    inp_phone = (By.XPATH, "//input[@id='Phone']")
+    select_units = (By.XPATH, "//select[@id='Unit_Count__c']")
+    option_value = (By.XPATH, "//option[@value='1 - 10']")
+    inp_jobtitle = (By.XPATH, "//input[@id='Title']")
+    select_iam = (By.XPATH, "//select[@id='demoRequest']")
+    option_resident = (By.XPATH, "//option[@value='a Resident']")
+    link_home = (By.XPATH, "//a[@aria-label='home']")
+    link_property_manage = (By.XPATH, "//a[@id='w-node-c76f92c7-5459-d298-642b-83796a0cdd0c-ab703cd3']")
+    link_marketing = (By.XPATH, "(//a[@class='service-card w-inline-block'])[2]")
+    link_accounting = (By.XPATH, "//a[@data-w-id='0bfce90c-baca-8f06-a906-ed8e90ace51a']")
+    link_utilities = (By.XPATH, "(//a[@class='service-card w-inline-block'])[4]")
